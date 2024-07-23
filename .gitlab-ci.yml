@@ -1,0 +1,14 @@
+image: 'nbulai/ruby-chromedriver:latest'
+  
+stages:
+  - test
+  - login
+  - professor
+  - aluno
+  
+run_scripts:
+  stage: test
+  script:
+    - gem install bundler
+    - bundle install
+    - bundle update

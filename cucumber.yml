@@ -1,0 +1,7 @@
+---
+
+default: --profile pretty -p producao -p no_headless
+pretty: --format pretty
+producao: AMBIENTE=producao
+no_headless: BROWSER=no_headless
+headless: BROWSER=headless
