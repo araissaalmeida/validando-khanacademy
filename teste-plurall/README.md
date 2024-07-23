@@ -1,4 +1,4 @@
-# Teste Plurall - Analista de Qualidade
+# Teste Plurall
 
 ## Cenários de automação de teste da Khan Academy
 
@@ -133,14 +133,6 @@ cucumber -t@acessar_curso
 cucumber
 ```
 
-# 4. Report de bug
-Link do board: https://raissaanjos.atlassian.net/jira/software/projects/TES/boards/1
-
-Link do ticket: https://raissaanjos.atlassian.net/browse/TES-2
-
-Observação: Caso não consiga visualizar, solicitar acesso por favor. 
-
-
 ## Tecnologias utilizadas no projeto
 
 As seguintes ferramentas foram usadas na construção do projeto:
@@ -153,15 +145,5 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - SitePrism
 - Faker
 
-## Fontes de estudo para realização do projeto
-
-- Para a criação do projeto na linguagem sugerida na descrição do teste, a principal fonte de consulta foi o curso 'Automação de testes com Capybara, Cucumber e Ruby' [https://www.udemy.com/course/automacao-de-testes-com-capybara-cucumber-e-ruby/] pois, além da explicação acerca do funcionamento, também tem uma aula com a execução do projeto final, validando a estrutura end-to-end.
-- Além disso, foi feita a consulta nas documentações oficiais das ferramentas/linguagens e fóruns do Github, Medium, Stackoverflow, entre outros.
-
-# Autoria
-
-### 👩🏻 Raíssa Almeida dos Anjos
-### 📱 Contato: (77)988662733
-### 🖥️ Email: raii.anjos@gmail.com
 
 
