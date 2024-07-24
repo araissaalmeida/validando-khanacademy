@@ -11,12 +11,12 @@
 
 ### Antes de começar, você vai precisar ter instalado e configurado em sua máquina as seguintes ferramentas: 
 
-- GIT [https://git-scm.com/downloads ],
-- Ruby [https://www.ruby-lang.org/pt/downloads/ ],
-- ChromeDriver [https://chromedriver.chromium.org/downloads ] (na versão que suporte o seu navegador Chrome).
+- [GIT](https://git-scm.com/downloads),
+- [Ruby](https://www.ruby-lang.org/pt/downloads/),
+- [ChromeDriver](https://chromedriver.chromium.org/downloads) na versão que suporte o seu navegador Chrome.
 
 
-Além disto, é bom ter um editor para trabalhar com o código, como o VsCode (https://code.visualstudio.com/download)
+Além disto, é bom ter um editor para trabalhar com o código, como o [VSCode](https://code.visualstudio.com/download)
 
 # 1. Como o projeto foi criado
 1- Uma pasta para o projeto foi criada;
@@ -133,6 +133,25 @@ cucumber -t@acessar_curso
 cucumber
 ```
 
+# 4. Report de bug
+
+Ambiente do teste: Produção (https://pt.khanacademy.org/)
+
+Data do teste: dd/mm/aa
+
+Browser: Google Chrome versão vv.v
+
+Usuário: 
+
+Comportamento esperado: Após o aluno deslogar, o sistema retornar para a página inicial.
+
+Comportamento atual: Ao tentar recomendar conteúdo, no modal "Recomendar x itens", e colocar uma hora final anterior a hora inicial, o modal "hora final" muda de lugar.
+
+Evidências: 
+
+Como reproduzir: Fazer login no sistema como professor, clicar em uma turma, clicar em 'recomendar', clicar em um conteúdo, clicar em "Recomendar x" e colocar uma hora final anterior à hora inicial.
+
+
 ## Tecnologias utilizadas no projeto
 
 As seguintes ferramentas foram usadas na construção do projeto:
@@ -145,5 +164,10 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - SitePrism
 - Faker
 
+## Fontes de estudo
 
+Curso [Automação de testes com Capybara, Cucumber e Ruby](https://www.udemy.com/course/automacao-de-testes-com-capybara-cucumber-e-ruby/)
 
+-----------------------
+## Este repositório foi desenvolvido por [araissaalmeida](https://github.com/araissaalmeida) 🫰
+-----------------------
